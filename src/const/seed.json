@@ -1,0 +1,2622 @@
+[
+  {
+    "team": [
+      {
+        "id": "4c734a91-fcbb-4456-a6a9-e87fac9bf7ab",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-21T11:05:40.153Z",
+        "updated_at": "2023-09-21T04:45:03.187Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "850d0e66-0df1-4e8b-b8cc-2c16e4977eec",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T17:16:36.426Z",
+        "updated_at": "2023-09-20T16:14:54.069Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "01b1e064-2203-446f-9c05-d9259e1d1194",
+        "name": "Sales Team",
+        "description": "Drives sales efforts",
+        "created_at": "2023-09-20T17:36:00.880Z",
+        "updated_at": "2023-09-20T14:16:55.341Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ad54feed-6ea3-4a31-841e-c73457fac1e2",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T17:38:45.044Z",
+        "updated_at": "2023-09-20T18:51:02.807Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9349411f-682d-4e58-a515-bbb1eda56da8",
+        "name": "Support Team",
+        "description": "Provides customer support",
+        "created_at": "2023-09-21T05:57:05.358Z",
+        "updated_at": "2023-09-21T11:16:38.971Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "8c648f79-c046-4088-90cf-cb528511b0a7",
+        "name": "Project A",
+        "start_date": "2023-09-20T17:08:03.044Z",
+        "end_date": "2023-09-20T21:36:30.874Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T17:44:41.285Z",
+        "updated_at": "2023-09-21T08:34:08.255Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ce2d308c-a0af-40f2-808b-950212746813",
+        "name": "Project B",
+        "start_date": "2023-09-20T17:44:21.110Z",
+        "end_date": "2023-09-21T10:05:49.416Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T21:00:29.878Z",
+        "updated_at": "2023-09-20T19:08:05.240Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a8b1bb37-c76b-419f-9a2c-a989e04e7705",
+        "name": "Project C",
+        "start_date": "2023-09-20T15:10:10.812Z",
+        "end_date": "2023-09-21T00:01:32.308Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T13:16:59.218Z",
+        "updated_at": "2023-09-20T18:10:08.216Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5db31d9d-01ed-4cd4-8b7f-6f76cec75563",
+        "name": "Project D",
+        "start_date": "2023-09-21T09:21:48.690Z",
+        "end_date": "2023-09-20T20:54:20.478Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T09:47:02.696Z",
+        "updated_at": "2023-09-21T02:45:05.034Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "9595bf30-4b25-4ff0-bcf5-0696a0803774",
+        "name": "Project E",
+        "start_date": "2023-09-21T03:08:28.744Z",
+        "end_date": "2023-09-20T23:24:43.907Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T06:44:52.017Z",
+        "updated_at": "2023-09-21T02:49:32.696Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "7bfd084e-c069-4164-a481-ac613a9bc5a0",
+        "title": "Bug Report",
+        "description": "Application crashes on startup",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T02:04:43.621Z",
+        "updated_at": "2023-09-20T21:13:12.609Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "a8b1bb37-c76b-419f-9a2c-a989e04e7705"
+      },
+      {
+        "id": "70da0e39-9d84-4e26-8a64-dea27dc055e6",
+        "title": "Feature Request",
+        "description": "Ability to sort data by date",
+        "status": "Closed",
+        "priority": "Medium",
+        "created_at": "2023-09-20T20:15:38.724Z",
+        "updated_at": "2023-09-21T04:53:39.056Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "5db31d9d-01ed-4cd4-8b7f-6f76cec75563"
+      },
+      {
+        "id": "6452f2a7-aaad-4bea-bde1-67118e3296ec",
+        "title": "Technical Issue",
+        "description": "Unable to connect to server",
+        "status": "In Progress",
+        "priority": "Low",
+        "created_at": "2023-09-21T04:43:12.618Z",
+        "updated_at": "2023-09-20T19:36:35.303Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "5db31d9d-01ed-4cd4-8b7f-6f76cec75563"
+      },
+      {
+        "id": "cf790809-97c1-4e0b-8a91-649f30129517",
+        "title": "UI Improvement",
+        "description": "Enhance user interface",
+        "status": "Resolved",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T20:49:22.342Z",
+        "updated_at": "2023-09-21T02:47:00.142Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "8c648f79-c046-4088-90cf-cb528511b0a7"
+      },
+      {
+        "id": "dc8845ed-9304-4fef-bcca-82b49f0fbabf",
+        "title": "Data Analysis",
+        "description": "Analyze sales data for Q3",
+        "status": "Pending",
+        "priority": "Normal",
+        "created_at": "2023-09-20T23:25:24.837Z",
+        "updated_at": "2023-09-20T12:22:49.550Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "9595bf30-4b25-4ff0-bcf5-0696a0803774"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "1488c279-88b0-4582-9f3c-5fcbf14ceb9e",
+        "start_time": "2023-09-21T09:34:03.975Z",
+        "end_time": "2023-09-20T22:23:29.141Z",
+        "description": "Meeting with client",
+        "created_at": "2023-09-21T05:27:12.268Z",
+        "updated_at": "2023-09-20T15:58:31.265Z",
+        "ticket_id": "7bfd084e-c069-4164-a481-ac613a9bc5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9656822b-fc29-4fc9-867c-28b9d91addd8",
+        "start_time": "2023-09-21T02:08:09.787Z",
+        "end_time": "2023-09-20T15:24:21.896Z",
+        "description": "Code review session",
+        "created_at": "2023-09-20T13:34:48.386Z",
+        "updated_at": "2023-09-20T21:05:58.925Z",
+        "ticket_id": "7bfd084e-c069-4164-a481-ac613a9bc5a0",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3cfcf952-4915-4933-9e17-9a45b7dd10c3",
+        "start_time": "2023-09-20T15:19:51.351Z",
+        "end_time": "2023-09-20T13:22:53.575Z",
+        "description": "Testing new feature",
+        "created_at": "2023-09-20T20:51:59.696Z",
+        "updated_at": "2023-09-21T06:17:00.139Z",
+        "ticket_id": "70da0e39-9d84-4e26-8a64-dea27dc055e6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0fd5ae8d-b728-40ce-810d-c910a815fcc8",
+        "start_time": "2023-09-20T13:29:49.436Z",
+        "end_time": "2023-09-20T14:18:13.519Z",
+        "description": "Documentation update",
+        "created_at": "2023-09-21T10:40:35.303Z",
+        "updated_at": "2023-09-21T10:23:11.627Z",
+        "ticket_id": "cf790809-97c1-4e0b-8a91-649f30129517",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c1c56b3d-fb53-46fb-858e-b86655723a51",
+        "start_time": "2023-09-20T17:09:13.485Z",
+        "end_time": "2023-09-21T08:10:28.005Z",
+        "description": "Database optimization",
+        "created_at": "2023-09-21T07:16:44.508Z",
+        "updated_at": "2023-09-21T08:27:07.710Z",
+        "ticket_id": "cf790809-97c1-4e0b-8a91-649f30129517",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "b723a8f5-4a76-4cbd-92df-2843e4ea7cc7",
+        "email": "Antonina6@roq.tech",
+        "firstName": "Lance",
+        "lastName": "Crona",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/656.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b81e7747-598c-47b1-bbe0-5fa00962c9fa",
+        "email": "Mina.Schaefer69@roq.tech",
+        "firstName": "Vanessa",
+        "lastName": "Padberg",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/539.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "8b19311d-3577-4b46-8055-add106909972",
+        "email": "Emmanuelle_Kling41@roq.tech",
+        "firstName": "Connor",
+        "lastName": "Labadie",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/14342565",
+        "tenantId": null
+      },
+      {
+        "reference": "896a4070-4a2a-4a63-8864-8383d71e6b1c",
+        "email": "Catalina.Ratke65@roq.tech",
+        "firstName": "Omer",
+        "lastName": "Armstrong",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/86093798",
+        "tenantId": null
+      },
+      {
+        "reference": "54ce8618-a54d-4fa0-8447-c6b4fab5095f",
+        "email": "Angel89@roq.tech",
+        "firstName": "Beverly",
+        "lastName": "Gulgowski",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1205.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "1725990a-8035-4c04-aaaf-453f65bb931c",
+        "name": "Development Team",
+        "description": "A team of skilled developers working on cutting-edge projects",
+        "created_at": "2023-09-20T15:37:33.338Z",
+        "updated_at": "2023-09-20T14:34:54.485Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "520a6296-1f37-4fc8-825f-dd8a22a1e560",
+        "name": "Marketing Team",
+        "description": "A team responsible for promoting products and services",
+        "created_at": "2023-09-20T19:41:42.658Z",
+        "updated_at": "2023-09-21T07:36:15.497Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "859edb38-4f3e-4885-88d3-6f2968f03c1c",
+        "name": "Sales Team",
+        "description": "A team focused on driving sales and revenue",
+        "created_at": "2023-09-20T16:27:22.176Z",
+        "updated_at": "2023-09-20T13:14:15.805Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ceba27a1-60ad-4ea1-bca1-7fafdee6264e",
+        "name": "Design Team",
+        "description": "A team creating visually appealing designs",
+        "created_at": "2023-09-21T02:36:00.681Z",
+        "updated_at": "2023-09-21T06:20:44.453Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7bf98d5f-4930-48e0-a4ad-a24d0667d993",
+        "name": "Operations Team",
+        "description": "A team managing day-to-day operations",
+        "created_at": "2023-09-20T13:06:23.963Z",
+        "updated_at": "2023-09-20T17:01:55.006Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "0077395d-1e45-4127-957b-7cebb97c5fdd",
+        "name": "Project A",
+        "start_date": "2023-09-21T01:57:44.204Z",
+        "end_date": "2023-09-21T01:40:45.743Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T17:54:17.411Z",
+        "updated_at": "2023-09-20T23:28:30.883Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "7998f401-53ad-4438-b13e-da9bb3ba0182",
+        "name": "Project B",
+        "start_date": "2023-09-21T06:14:51.771Z",
+        "end_date": "2023-09-20T21:52:36.814Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T02:01:19.715Z",
+        "updated_at": "2023-09-20T14:44:04.465Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a4a966d0-4dcb-4fb8-a044-0c9f0ed5c1ad",
+        "name": "Project C",
+        "start_date": "2023-09-20T14:18:28.232Z",
+        "end_date": "2023-09-20T21:07:01.597Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T21:14:52.162Z",
+        "updated_at": "2023-09-20T12:02:58.450Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "134db615-44bf-494b-b8fe-7c175517dc8b",
+        "name": "Project D",
+        "start_date": "2023-09-21T05:41:42.494Z",
+        "end_date": "2023-09-20T14:43:20.627Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T05:10:53.339Z",
+        "updated_at": "2023-09-21T09:14:34.857Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "8da681e9-5362-44e4-af40-80bfefe3a35d",
+        "name": "Project E",
+        "start_date": "2023-09-21T04:06:51.980Z",
+        "end_date": "2023-09-21T02:34:32.422Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T05:50:26.900Z",
+        "updated_at": "2023-09-20T14:18:05.821Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "56aa54d1-94ba-4c4a-a429-706b3bde6350",
+        "title": "Bug Report",
+        "description": "An issue related to functionality not working as expected",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T06:06:07.446Z",
+        "updated_at": "2023-09-21T04:39:54.200Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "8da681e9-5362-44e4-af40-80bfefe3a35d"
+      },
+      {
+        "id": "ebd73401-cbbd-4082-83a7-c01d45a681e5",
+        "title": "Feature Request",
+        "description": "A suggestion for a new feature or enhancement",
+        "status": "Closed",
+        "priority": "Medium",
+        "created_at": "2023-09-20T16:07:04.258Z",
+        "updated_at": "2023-09-20T14:42:46.858Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "7998f401-53ad-4438-b13e-da9bb3ba0182"
+      },
+      {
+        "id": "9ea08d46-9b68-41ea-842b-0a8531a54949",
+        "title": "Technical Issue",
+        "description": "A technical problem that needs troubleshooting",
+        "status": "In Progress",
+        "priority": "Low",
+        "created_at": "2023-09-21T01:12:34.541Z",
+        "updated_at": "2023-09-20T22:51:17.663Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "8da681e9-5362-44e4-af40-80bfefe3a35d"
+      },
+      {
+        "id": "2edeb53a-5448-4bfe-93e5-9afb4fade6bc",
+        "title": "User Feedback",
+        "description": "Feedback provided by a user regarding the product",
+        "status": "Resolved",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T19:37:26.496Z",
+        "updated_at": "2023-09-20T15:27:16.954Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "134db615-44bf-494b-b8fe-7c175517dc8b"
+      },
+      {
+        "id": "1369b5c0-da3b-41f0-b209-d1254affccd5",
+        "title": "System Error",
+        "description": "An error occurring within the system",
+        "status": "Pending",
+        "priority": "Normal",
+        "created_at": "2023-09-20T18:43:57.033Z",
+        "updated_at": "2023-09-20T16:27:01.864Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "0077395d-1e45-4127-957b-7cebb97c5fdd"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "f2c4a0a3-622e-4a6f-b6d3-8d613e02d3d7",
+        "start_time": "2023-09-21T05:08:53.352Z",
+        "end_time": "2023-09-20T11:22:03.958Z",
+        "description": "Worked on implementing new feature",
+        "created_at": "2023-09-21T09:06:18.270Z",
+        "updated_at": "2023-09-21T06:41:00.501Z",
+        "ticket_id": "1369b5c0-da3b-41f0-b209-d1254affccd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e4e8f57c-39fe-4ea3-aa98-0e3bbbdd57ef",
+        "start_time": "2023-09-20T14:18:28.917Z",
+        "end_time": "2023-09-20T22:54:51.992Z",
+        "description": "Attended team meeting",
+        "created_at": "2023-09-20T22:30:50.314Z",
+        "updated_at": "2023-09-20T22:28:36.810Z",
+        "ticket_id": "1369b5c0-da3b-41f0-b209-d1254affccd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9854d456-d8ae-4f7b-a626-41857aefad15",
+        "start_time": "2023-09-20T16:22:45.832Z",
+        "end_time": "2023-09-20T23:16:02.482Z",
+        "description": "Resolved technical issue for client",
+        "created_at": "2023-09-21T09:19:16.220Z",
+        "updated_at": "2023-09-21T05:50:23.407Z",
+        "ticket_id": "9ea08d46-9b68-41ea-842b-0a8531a54949",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "e5affbeb-5546-475d-82c4-c40cda1cb476",
+        "start_time": "2023-09-20T23:59:48.463Z",
+        "end_time": "2023-09-20T17:19:53.506Z",
+        "description": "Reviewed code for quality assurance",
+        "created_at": "2023-09-20T21:44:32.117Z",
+        "updated_at": "2023-09-20T16:16:07.224Z",
+        "ticket_id": "9ea08d46-9b68-41ea-842b-0a8531a54949",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8518aa7e-4dad-42ae-90f1-db89ada9a0d9",
+        "start_time": "2023-09-21T09:30:00.308Z",
+        "end_time": "2023-09-20T16:35:14.209Z",
+        "description": "Provided support to end-users",
+        "created_at": "2023-09-21T07:29:17.741Z",
+        "updated_at": "2023-09-20T13:07:35.214Z",
+        "ticket_id": "1369b5c0-da3b-41f0-b209-d1254affccd5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "ceb6db92-42a2-4f1c-91a7-01ee4dd25db4",
+        "email": "Jackie_Boyle76@roq.tech",
+        "firstName": "Marianne",
+        "lastName": "Dooley",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/905.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "4072ca86-3d02-4bd7-821e-d1a447544b48",
+        "email": "Sandrine_Considine@roq.tech",
+        "firstName": "Lloyd",
+        "lastName": "Hand",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/51750167",
+        "tenantId": null
+      },
+      {
+        "reference": "d16bdd25-5360-4b07-b452-ffe4b3bf9aa6",
+        "email": "Greyson58@roq.tech",
+        "firstName": "Anastacio",
+        "lastName": "Balistreri",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/69980336",
+        "tenantId": null
+      },
+      {
+        "reference": "8ff54766-84c0-4207-9125-8bb7ca1b7b62",
+        "email": "Carrie95@roq.tech",
+        "firstName": "Americo",
+        "lastName": "Little",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1100.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "c563e421-6046-41b7-8729-2ad479d8fa10",
+        "email": "Jack96@roq.tech",
+        "firstName": "Tressie",
+        "lastName": "Pfannerstill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/91140364",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "2869d51b-ed51-47f6-b0a7-f7852e578393",
+        "name": "Development",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T12:02:53.035Z",
+        "updated_at": "2023-09-21T06:33:29.439Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "599dec5e-d5b0-453a-84e1-e9229b1da2c8",
+        "name": "Sales",
+        "description": "Handles sales and client relations",
+        "created_at": "2023-09-20T13:43:21.639Z",
+        "updated_at": "2023-09-21T02:37:38.040Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9bc9fa63-4501-4dbd-bcaf-797b85df0d52",
+        "name": "Marketing",
+        "description": "Executes marketing campaigns",
+        "created_at": "2023-09-21T00:55:43.660Z",
+        "updated_at": "2023-09-21T02:45:38.492Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7eddeb87-f7c9-4416-bef8-2bf49991a2fc",
+        "name": "Operations",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T05:05:43.297Z",
+        "updated_at": "2023-09-20T19:58:39.334Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "76d49640-fadb-46cc-86c8-bcd68de4e3dd",
+        "name": "Customer Support",
+        "description": "Provides customer support",
+        "created_at": "2023-09-20T12:29:13.334Z",
+        "updated_at": "2023-09-21T08:48:08.854Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "69983931-9df7-4cf8-b77f-c1ca40a76546",
+        "name": "Website Redesign",
+        "start_date": "2023-09-21T03:35:09.275Z",
+        "end_date": "2023-09-21T10:45:42.091Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T02:41:09.006Z",
+        "updated_at": "2023-09-20T17:55:57.377Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "5ac0b77b-dc8f-4e11-bf0c-08db8e75b733",
+        "name": "Product Launch",
+        "start_date": "2023-09-21T05:55:42.060Z",
+        "end_date": "2023-09-21T06:58:21.842Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:29:18.566Z",
+        "updated_at": "2023-09-20T15:56:38.121Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "f891fff5-bd3b-4a5d-975b-7bd55f6a5e31",
+        "name": "Marketing Campaign",
+        "start_date": "2023-09-21T09:10:41.547Z",
+        "end_date": "2023-09-21T09:56:20.797Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T15:54:45.130Z",
+        "updated_at": "2023-09-21T08:57:22.724Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "1a3b117b-d908-4848-b8d9-2bba69c008da",
+        "name": "Process Optimization",
+        "start_date": "2023-09-20T23:29:22.438Z",
+        "end_date": "2023-09-20T17:45:24.854Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T05:44:31.857Z",
+        "updated_at": "2023-09-20T17:34:32.085Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "6805a80c-f01d-4ed8-9d0c-63f3125b62ce",
+        "name": "Customer Portal",
+        "start_date": "2023-09-20T16:31:05.053Z",
+        "end_date": "2023-09-21T04:41:22.901Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T09:37:29.160Z",
+        "updated_at": "2023-09-21T09:41:54.942Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "40087d31-52e5-4d05-bcb0-f0157c5a7526",
+        "title": "Bug Report",
+        "description": "Unable to login to the system",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T06:04:39.802Z",
+        "updated_at": "2023-09-21T06:28:53.163Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "69983931-9df7-4cf8-b77f-c1ca40a76546"
+      },
+      {
+        "id": "b284e58b-9a06-4da2-b71b-69a783be015c",
+        "title": "Feature Request",
+        "description": "Requesting a new feature",
+        "status": "Closed",
+        "priority": "Medium",
+        "created_at": "2023-09-20T20:35:27.296Z",
+        "updated_at": "2023-09-21T06:20:44.724Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "5ac0b77b-dc8f-4e11-bf0c-08db8e75b733"
+      },
+      {
+        "id": "5ea00e4c-3768-4368-b6ea-7da4dadcf9e8",
+        "title": "Technical Issue",
+        "description": "Experiencing slow performance",
+        "status": "In Progress",
+        "priority": "Low",
+        "created_at": "2023-09-21T08:09:55.246Z",
+        "updated_at": "2023-09-20T21:29:40.181Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "6805a80c-f01d-4ed8-9d0c-63f3125b62ce"
+      },
+      {
+        "id": "ba9d1da6-3ddf-4334-859c-b78d721e6d0f",
+        "title": "User Feedback",
+        "description": "Providing feedback on the user interface",
+        "status": "Resolved",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T11:36:45.232Z",
+        "updated_at": "2023-09-21T11:12:09.897Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "69983931-9df7-4cf8-b77f-c1ca40a76546"
+      },
+      {
+        "id": "6218196a-4ab7-4937-8ee0-87d0d5e072ba",
+        "title": "System Error",
+        "description": "Encountering a critical system error",
+        "status": "Pending",
+        "priority": "Normal",
+        "created_at": "2023-09-21T04:05:28.193Z",
+        "updated_at": "2023-09-21T10:05:51.073Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "5ac0b77b-dc8f-4e11-bf0c-08db8e75b733"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "b781b03d-fd62-4ee6-ad55-8beb45a39723",
+        "start_time": "2023-09-20T20:49:59.276Z",
+        "end_time": "2023-09-21T07:07:52.448Z",
+        "description": "Meeting with client",
+        "created_at": "2023-09-20T17:47:11.112Z",
+        "updated_at": "2023-09-20T23:22:26.121Z",
+        "ticket_id": "b284e58b-9a06-4da2-b71b-69a783be015c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a2963cd4-71bb-458a-8012-8dce26f71b1d",
+        "start_time": "2023-09-20T21:34:00.713Z",
+        "end_time": "2023-09-21T04:57:43.130Z",
+        "description": "Code review session",
+        "created_at": "2023-09-20T11:47:52.013Z",
+        "updated_at": "2023-09-20T23:23:04.371Z",
+        "ticket_id": "6218196a-4ab7-4937-8ee0-87d0d5e072ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5808e03c-34f8-4ca9-8164-8a3e876c9a6e",
+        "start_time": "2023-09-20T14:31:57.091Z",
+        "end_time": "2023-09-21T05:33:11.418Z",
+        "description": "Testing new functionality",
+        "created_at": "2023-09-21T02:13:10.543Z",
+        "updated_at": "2023-09-21T04:07:56.189Z",
+        "ticket_id": "5ea00e4c-3768-4368-b6ea-7da4dadcf9e8",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "250e929a-d8e5-4675-ba7c-698e201b5325",
+        "start_time": "2023-09-21T10:28:58.930Z",
+        "end_time": "2023-09-20T22:59:37.951Z",
+        "description": "Documentation update",
+        "created_at": "2023-09-21T00:44:25.500Z",
+        "updated_at": "2023-09-20T11:30:07.488Z",
+        "ticket_id": "6218196a-4ab7-4937-8ee0-87d0d5e072ba",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "25d1e5ba-c9db-4fc4-9b5a-395decbab620",
+        "start_time": "2023-09-20T13:43:08.033Z",
+        "end_time": "2023-09-20T14:17:17.153Z",
+        "description": "Research and analysis",
+        "created_at": "2023-09-20T13:04:25.575Z",
+        "updated_at": "2023-09-20T12:14:27.075Z",
+        "ticket_id": "5ea00e4c-3768-4368-b6ea-7da4dadcf9e8",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "224e633f-0084-4d36-b702-c7e55ef9e017",
+        "email": "Irwin25@roq.tech",
+        "firstName": "Briana",
+        "lastName": "Lebsack",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/27753832",
+        "tenantId": null
+      },
+      {
+        "reference": "131f88df-9e4e-47dc-bcc4-1dda2019b1dd",
+        "email": "Rick_Hintz@roq.tech",
+        "firstName": "Willy",
+        "lastName": "Kuhn",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/213.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7b1ee390-4530-499a-937a-165d68757d9b",
+        "email": "Rick.Towne52@roq.tech",
+        "firstName": "Zane",
+        "lastName": "Marvin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/73432261",
+        "tenantId": null
+      },
+      {
+        "reference": "9dd7a2b1-bc6d-447b-98f3-0d21d003556b",
+        "email": "Isabelle94@roq.tech",
+        "firstName": "Moriah",
+        "lastName": "Jones",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/54536047",
+        "tenantId": null
+      },
+      {
+        "reference": "a9c883b2-b9ae-4f30-9b1d-4d0d44dafc5a",
+        "email": "Haskell_Kerluke@roq.tech",
+        "firstName": "Kieran",
+        "lastName": "Gerhold",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16789524",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "45b0ee75-608d-4118-8b31-cabfb2b3e8b5",
+        "name": "Development",
+        "description": "Responsible for product development",
+        "created_at": "2023-09-20T15:13:09.157Z",
+        "updated_at": "2023-09-21T04:10:20.270Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "858b987d-7cb6-411d-b945-187734f01d33",
+        "name": "Marketing",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T19:02:17.501Z",
+        "updated_at": "2023-09-21T08:47:16.874Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c092de9-de01-41b5-89b0-51d17100864b",
+        "name": "Sales",
+        "description": "Drives sales efforts",
+        "created_at": "2023-09-21T03:13:55.993Z",
+        "updated_at": "2023-09-20T21:38:21.375Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ee284050-b14a-4553-a62a-1705fcb3c81e",
+        "name": "Operations",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-20T22:38:08.384Z",
+        "updated_at": "2023-09-20T13:29:15.735Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3596038a-6779-444d-add7-f614c5d096c5",
+        "name": "Customer Support",
+        "description": "Provides customer support",
+        "created_at": "2023-09-20T22:28:14.654Z",
+        "updated_at": "2023-09-21T07:19:04.897Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "937d0172-135d-4f08-b5cc-7d0ef53ce397",
+        "name": "Project A",
+        "start_date": "2023-09-20T14:42:39.148Z",
+        "end_date": "2023-09-21T07:57:54.046Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T15:32:04.836Z",
+        "updated_at": "2023-09-20T15:59:37.176Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a0ddfcaa-c248-4085-a79d-e1667a9fc61a",
+        "name": "Project B",
+        "start_date": "2023-09-21T06:23:37.368Z",
+        "end_date": "2023-09-20T19:04:13.471Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T01:58:08.626Z",
+        "updated_at": "2023-09-20T16:05:11.096Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ac994a83-9c27-4608-a55b-b584a48bc561",
+        "name": "Project C",
+        "start_date": "2023-09-21T01:44:09.907Z",
+        "end_date": "2023-09-20T17:30:33.989Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T01:15:19.496Z",
+        "updated_at": "2023-09-20T19:53:52.444Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a7cef4d9-6ba1-45d4-8747-5bda5cea9113",
+        "name": "Project D",
+        "start_date": "2023-09-21T05:48:58.725Z",
+        "end_date": "2023-09-21T05:03:19.277Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T19:12:14.659Z",
+        "updated_at": "2023-09-21T06:12:23.350Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "66da3bc1-008d-43b3-be21-6c81a9d50467",
+        "name": "Project E",
+        "start_date": "2023-09-21T01:07:07.100Z",
+        "end_date": "2023-09-21T00:16:50.088Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-21T08:27:13.067Z",
+        "updated_at": "2023-09-20T19:35:11.530Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "36fad84b-9057-451a-a573-b217f3a065c3",
+        "title": "Bug fix",
+        "description": "Application crashes on startup",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T05:52:42.380Z",
+        "updated_at": "2023-09-20T19:59:13.194Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "937d0172-135d-4f08-b5cc-7d0ef53ce397"
+      },
+      {
+        "id": "fb6c5797-2f0e-46bf-a91f-3c609e19bafc",
+        "title": "Feature request",
+        "description": "Request for adding new functionality",
+        "status": "In progress",
+        "priority": "Medium",
+        "created_at": "2023-09-21T04:38:22.522Z",
+        "updated_at": "2023-09-21T05:09:15.640Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "937d0172-135d-4f08-b5cc-7d0ef53ce397"
+      },
+      {
+        "id": "c97c607f-2e82-4043-a3d9-ac6669c000e7",
+        "title": "Technical issue",
+        "description": "Unable to connect to server",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-21T02:22:37.068Z",
+        "updated_at": "2023-09-21T09:14:44.593Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "937d0172-135d-4f08-b5cc-7d0ef53ce397"
+      },
+      {
+        "id": "df428e5e-38d8-4fcc-8e72-f76303390ccb",
+        "title": "UI improvement",
+        "description": "Improvements needed in user interface",
+        "status": "Closed",
+        "priority": "Urgent",
+        "created_at": "2023-09-21T08:27:50.248Z",
+        "updated_at": "2023-09-21T08:43:14.527Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "937d0172-135d-4f08-b5cc-7d0ef53ce397"
+      },
+      {
+        "id": "7dc1d87c-ae47-4962-91ac-b0653288920d",
+        "title": "Performance problem",
+        "description": "Application slows down during peak hours",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-20T17:23:54.292Z",
+        "updated_at": "2023-09-21T08:54:36.342Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "a0ddfcaa-c248-4085-a79d-e1667a9fc61a"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "c78de213-331b-431a-8127-0d971fd9593d",
+        "start_time": "2023-09-20T19:25:19.644Z",
+        "end_time": "2023-09-21T09:03:01.358Z",
+        "description": "Meeting with client",
+        "created_at": "2023-09-20T13:00:12.791Z",
+        "updated_at": "2023-09-20T19:37:07.221Z",
+        "ticket_id": "36fad84b-9057-451a-a573-b217f3a065c3",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "27d4324f-2c01-4506-9115-352e2cb1c6b1",
+        "start_time": "2023-09-21T07:54:36.175Z",
+        "end_time": "2023-09-20T16:07:41.887Z",
+        "description": "Code review session",
+        "created_at": "2023-09-21T05:37:31.135Z",
+        "updated_at": "2023-09-21T06:10:56.358Z",
+        "ticket_id": "c97c607f-2e82-4043-a3d9-ac6669c000e7",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "c805960b-fa9b-43e7-adbf-9777478115b2",
+        "start_time": "2023-09-21T09:11:28.632Z",
+        "end_time": "2023-09-21T11:08:11.102Z",
+        "description": "Testing new features",
+        "created_at": "2023-09-20T22:20:08.476Z",
+        "updated_at": "2023-09-20T20:19:12.359Z",
+        "ticket_id": "7dc1d87c-ae47-4962-91ac-b0653288920d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "466a078a-e5f8-449a-a259-66a995401c70",
+        "start_time": "2023-09-20T18:03:30.277Z",
+        "end_time": "2023-09-20T21:49:58.545Z",
+        "description": "Documentation update",
+        "created_at": "2023-09-20T17:26:57.626Z",
+        "updated_at": "2023-09-21T06:22:56.545Z",
+        "ticket_id": "7dc1d87c-ae47-4962-91ac-b0653288920d",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "2a5619c6-a757-4732-9152-d614a3995e50",
+        "start_time": "2023-09-20T19:43:38.212Z",
+        "end_time": "2023-09-20T12:47:06.194Z",
+        "description": "Debugging and troubleshooting",
+        "created_at": "2023-09-20T18:52:17.437Z",
+        "updated_at": "2023-09-21T04:17:12.073Z",
+        "ticket_id": "7dc1d87c-ae47-4962-91ac-b0653288920d",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "f9fb7439-8ae5-43e7-ae75-c37137602c73",
+        "email": "Dax_Kub9@roq.tech",
+        "firstName": "Jimmy",
+        "lastName": "Dach",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1236.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "ec737996-64d0-4040-87d1-abb447f89711",
+        "email": "Kara.Flatley@roq.tech",
+        "firstName": "Hallie",
+        "lastName": "Morar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1055.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f649723e-cfcc-4c92-922d-31d37fdc097b",
+        "email": "Gwen.Haley@roq.tech",
+        "firstName": "Jarred",
+        "lastName": "Huel",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/942.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "7f94aa89-42b7-4ddc-9d1a-d982b5b87426",
+        "email": "Louie_Schiller@roq.tech",
+        "firstName": "Jonas",
+        "lastName": "Murray",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/35889568",
+        "tenantId": null
+      },
+      {
+        "reference": "3ce9bac6-9869-42e1-9f3c-ae5ca7a41a1a",
+        "email": "Javier61@roq.tech",
+        "firstName": "Jordan",
+        "lastName": "Adams",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/547.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "4c308735-4cb4-4b69-bdc5-41e5d2e56612",
+        "name": "Development",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T19:57:13.380Z",
+        "updated_at": "2023-09-20T19:02:29.983Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "9781404d-2de6-4fe4-b476-50025cc30bec",
+        "name": "Sales",
+        "description": "Handles customer inquiries and sales",
+        "created_at": "2023-09-20T19:34:24.223Z",
+        "updated_at": "2023-09-20T17:46:03.852Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "caf3fa9b-5cde-4e81-b110-ad2390b294de",
+        "name": "Marketing",
+        "description": "Creates marketing campaigns",
+        "created_at": "2023-09-20T15:28:44.968Z",
+        "updated_at": "2023-09-20T11:46:44.827Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "4f718675-c666-44b7-bcfa-e5aa80add159",
+        "name": "Operations",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T06:25:25.371Z",
+        "updated_at": "2023-09-20T18:08:09.470Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a8eac3ab-ec55-4d9a-8461-0d5d66c8c156",
+        "name": "Support",
+        "description": "Provides technical support",
+        "created_at": "2023-09-21T09:27:51.365Z",
+        "updated_at": "2023-09-21T10:20:57.424Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "dc3004fc-6f90-4d53-a330-e6b9cc7133d2",
+        "name": "Website Redesign",
+        "start_date": "2023-09-20T17:05:05.887Z",
+        "end_date": "2023-09-20T22:09:50.845Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T09:46:18.997Z",
+        "updated_at": "2023-09-20T15:17:11.637Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "001ee101-e10b-48c5-916a-76d1b5b39211",
+        "name": "Product Launch",
+        "start_date": "2023-09-21T10:08:16.399Z",
+        "end_date": "2023-09-20T19:37:18.906Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T12:04:20.574Z",
+        "updated_at": "2023-09-21T09:18:59.174Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "a21eaee7-9530-4161-a4de-55793d37b45a",
+        "name": "Marketing Campaign",
+        "start_date": "2023-09-21T10:05:30.515Z",
+        "end_date": "2023-09-21T02:19:04.178Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T09:11:05.114Z",
+        "updated_at": "2023-09-21T11:01:48.413Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "511fd08a-f11a-4fdb-823b-538cbe3b617b",
+        "name": "Process Improvement",
+        "start_date": "2023-09-21T07:02:42.087Z",
+        "end_date": "2023-09-20T19:45:32.673Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T11:50:08.056Z",
+        "updated_at": "2023-09-21T03:57:15.495Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "12e74bed-8933-4c0d-8cfe-cca0dcaa20d4",
+        "name": "Client Onboarding",
+        "start_date": "2023-09-20T12:31:53.389Z",
+        "end_date": "2023-09-21T06:34:02.333Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T00:51:45.537Z",
+        "updated_at": "2023-09-21T09:15:23.274Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "57dda1bb-670b-4138-bdfd-fe8887f9b206",
+        "title": "Bug Report",
+        "description": "Encountered a bug while using the application",
+        "status": "Open",
+        "priority": "Low",
+        "created_at": "2023-09-21T05:31:10.917Z",
+        "updated_at": "2023-09-21T04:55:32.124Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "a21eaee7-9530-4161-a4de-55793d37b45a"
+      },
+      {
+        "id": "9f4f4a1c-1b5f-42b3-a55e-c062f5e17aab",
+        "title": "Feature Request",
+        "description": "Requesting a new feature to be added",
+        "status": "Closed",
+        "priority": "Medium",
+        "created_at": "2023-09-20T18:48:55.790Z",
+        "updated_at": "2023-09-21T06:21:47.852Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "001ee101-e10b-48c5-916a-76d1b5b39211"
+      },
+      {
+        "id": "4619c21c-b3b1-427c-a458-87bc4973b425",
+        "title": "Technical Issue",
+        "description": "Experiencing technical difficulties",
+        "status": "In Progress",
+        "priority": "High",
+        "created_at": "2023-09-20T22:09:44.410Z",
+        "updated_at": "2023-09-20T15:40:12.153Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "dc3004fc-6f90-4d53-a330-e6b9cc7133d2"
+      },
+      {
+        "id": "43c2402d-4894-4d9b-b321-d01135c2abe6",
+        "title": "Customer Complaint",
+        "description": "Received a complaint from a customer",
+        "status": "On Hold",
+        "priority": "Urgent",
+        "created_at": "2023-09-21T08:11:18.109Z",
+        "updated_at": "2023-09-20T17:58:04.492Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "001ee101-e10b-48c5-916a-76d1b5b39211"
+      },
+      {
+        "id": "b67cc615-1c6d-4b43-953d-e3a044d6b374",
+        "title": "Data Entry Error",
+        "description": "Identified an error in data entry",
+        "status": "Resolved",
+        "priority": "Critical",
+        "created_at": "2023-09-21T01:38:05.654Z",
+        "updated_at": "2023-09-20T18:58:02.753Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "001ee101-e10b-48c5-916a-76d1b5b39211"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "40f12d03-e291-448c-bddd-9180899e5b4c",
+        "start_time": "2023-09-20T16:48:20.971Z",
+        "end_time": "2023-09-20T11:28:28.359Z",
+        "description": "Worked on implementing new feature",
+        "created_at": "2023-09-21T05:22:20.411Z",
+        "updated_at": "2023-09-20T18:46:48.764Z",
+        "ticket_id": "b67cc615-1c6d-4b43-953d-e3a044d6b374",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c5cc433-721c-458e-8942-b7387a39fdac",
+        "start_time": "2023-09-21T05:47:49.602Z",
+        "end_time": "2023-09-20T12:32:42.770Z",
+        "description": "Attended project meeting",
+        "created_at": "2023-09-20T21:54:02.080Z",
+        "updated_at": "2023-09-20T20:43:46.699Z",
+        "ticket_id": "57dda1bb-670b-4138-bdfd-fe8887f9b206",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "a8bb66fd-7777-4ec6-adeb-89c276a2e476",
+        "start_time": "2023-09-21T08:08:00.827Z",
+        "end_time": "2023-09-20T17:33:12.541Z",
+        "description": "Resolved customer support ticket",
+        "created_at": "2023-09-21T08:23:28.453Z",
+        "updated_at": "2023-09-20T14:09:02.387Z",
+        "ticket_id": "9f4f4a1c-1b5f-42b3-a55e-c062f5e17aab",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "cf84e03e-bf1f-4ad0-b062-46bc12b754d7",
+        "start_time": "2023-09-21T04:41:47.273Z",
+        "end_time": "2023-09-21T09:50:27.292Z",
+        "description": "Reviewed code for quality assurance",
+        "created_at": "2023-09-20T11:54:31.032Z",
+        "updated_at": "2023-09-20T18:00:53.795Z",
+        "ticket_id": "43c2402d-4894-4d9b-b321-d01135c2abe6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6c658a54-50ac-4d14-9a10-0bb7c0328c82",
+        "start_time": "2023-09-21T00:10:37.859Z",
+        "end_time": "2023-09-20T16:53:04.853Z",
+        "description": "Performed system maintenance",
+        "created_at": "2023-09-21T06:01:22.251Z",
+        "updated_at": "2023-09-21T00:22:48.242Z",
+        "ticket_id": "b67cc615-1c6d-4b43-953d-e3a044d6b374",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "bb3c8a69-b710-48e8-8414-04ce8a40388d",
+        "email": "Terence91@roq.tech",
+        "firstName": "Cassandre",
+        "lastName": "Olson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/957.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "1d049ed0-38ee-40a5-82fd-4ecd8c2ef8af",
+        "email": "Jaiden99@roq.tech",
+        "firstName": "Donnell",
+        "lastName": "Kemmer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/16520429",
+        "tenantId": null
+      },
+      {
+        "reference": "734b5a22-91fc-40b9-a0ab-af3e2479ba12",
+        "email": "Elissa.Gleason@roq.tech",
+        "firstName": "Antonio",
+        "lastName": "Kessler",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/718.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "03384ed1-6cdb-4968-8b72-de814395a606",
+        "email": "Jessica.Kuhlman22@roq.tech",
+        "firstName": "Gabriel",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/933.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "e7b5e9cb-e12b-4ab4-87d6-bd54a91fae7d",
+        "email": "Maiya_Sipes@roq.tech",
+        "firstName": "Jadon",
+        "lastName": "Grimes",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/575.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "66313fe1-d060-4214-b18e-b0196064139a",
+        "name": "Development",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T23:41:18.886Z",
+        "updated_at": "2023-09-21T01:51:24.551Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "19bb50f1-3174-4af5-b73e-c1aae4a41ae2",
+        "name": "Marketing",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T21:34:41.037Z",
+        "updated_at": "2023-09-20T20:07:40.349Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "39a6cab2-6997-459a-823a-71dcbc8336ff",
+        "name": "Sales",
+        "description": "Drives sales efforts",
+        "created_at": "2023-09-20T16:17:19.979Z",
+        "updated_at": "2023-09-21T05:20:55.821Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d5604d76-c9e2-4b68-be4c-f40f343651fe",
+        "name": "Design",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T16:02:06.065Z",
+        "updated_at": "2023-09-21T06:26:10.421Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "21d3a80b-d9a7-4cc1-abc7-b3299157ade5",
+        "name": "Operations",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-20T23:21:55.553Z",
+        "updated_at": "2023-09-20T20:12:35.907Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "704e2d62-f2c4-4758-b2ad-7f3fbb6a87d8",
+        "name": "Project A",
+        "start_date": "2023-09-20T19:25:52.799Z",
+        "end_date": "2023-09-20T22:41:46.942Z",
+        "status": "In progress",
+        "created_at": "2023-09-21T03:15:10.769Z",
+        "updated_at": "2023-09-20T14:23:57.413Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "e8fa916a-875c-4087-9d11-dcdcb2479497",
+        "name": "Project B",
+        "start_date": "2023-09-21T06:05:44.265Z",
+        "end_date": "2023-09-20T11:57:19.998Z",
+        "status": "On hold",
+        "created_at": "2023-09-20T20:09:36.709Z",
+        "updated_at": "2023-09-21T08:39:41.549Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "d97ec78f-4577-4a30-b029-909b23e50704",
+        "name": "Project C",
+        "start_date": "2023-09-21T08:46:53.197Z",
+        "end_date": "2023-09-20T16:24:30.099Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T11:47:00.464Z",
+        "updated_at": "2023-09-21T07:21:10.169Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "4139f68c-c199-466c-9330-74c43fe3ad95",
+        "name": "Project D",
+        "start_date": "2023-09-21T05:05:31.780Z",
+        "end_date": "2023-09-21T09:49:32.012Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T11:00:39.386Z",
+        "updated_at": "2023-09-21T00:21:24.854Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "c516d698-c07d-4295-ac7a-f16f89f19698",
+        "name": "Project E",
+        "start_date": "2023-09-20T15:32:53.395Z",
+        "end_date": "2023-09-21T11:19:19.497Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T01:58:02.754Z",
+        "updated_at": "2023-09-20T14:27:59.846Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "f04a4b17-77ab-4efd-887b-f7fd5ea9cbd5",
+        "title": "Bug fix",
+        "description": "Fix a critical bug in the system",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-20T17:13:14.575Z",
+        "updated_at": "2023-09-21T10:58:31.047Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "d97ec78f-4577-4a30-b029-909b23e50704"
+      },
+      {
+        "id": "60ed90e8-86d4-4b10-98f8-4cbe889cfcfb",
+        "title": "Feature request",
+        "description": "Request a new feature for the application",
+        "status": "In progress",
+        "priority": "Medium",
+        "created_at": "2023-09-21T03:17:39.096Z",
+        "updated_at": "2023-09-21T11:03:04.145Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "4139f68c-c199-466c-9330-74c43fe3ad95"
+      },
+      {
+        "id": "b4b394d1-eb17-4865-a256-bb4dac571c32",
+        "title": "UI enhancement",
+        "description": "Improve the user interface design",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-21T08:23:30.052Z",
+        "updated_at": "2023-09-21T02:17:19.186Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "c516d698-c07d-4295-ac7a-f16f89f19698"
+      },
+      {
+        "id": "c657b7a0-8a13-43d7-b85c-aba518270c57",
+        "title": "Performance issue",
+        "description": "Optimize the system performance",
+        "status": "Closed",
+        "priority": "Urgent",
+        "created_at": "2023-09-21T05:14:22.763Z",
+        "updated_at": "2023-09-21T03:44:08.224Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "d97ec78f-4577-4a30-b029-909b23e50704"
+      },
+      {
+        "id": "6e920d41-1300-4763-8d6d-7c125ea7f83f",
+        "title": "Documentation update",
+        "description": "Update the documentation for a module",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-20T19:05:01.604Z",
+        "updated_at": "2023-09-21T02:00:08.170Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "e8fa916a-875c-4087-9d11-dcdcb2479497"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "f0eea64d-0a0d-474f-b69f-a04f65ee03c8",
+        "start_time": "2023-09-21T10:31:59.251Z",
+        "end_time": "2023-09-21T01:21:30.258Z",
+        "description": "Worked on bug fixes",
+        "created_at": "2023-09-21T06:18:51.504Z",
+        "updated_at": "2023-09-21T07:33:03.594Z",
+        "ticket_id": "f04a4b17-77ab-4efd-887b-f7fd5ea9cbd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "6bb6de7e-365d-483a-bbc6-b546d2f60995",
+        "start_time": "2023-09-20T13:07:31.815Z",
+        "end_time": "2023-09-20T17:55:17.069Z",
+        "description": "Implemented new feature",
+        "created_at": "2023-09-20T16:14:31.479Z",
+        "updated_at": "2023-09-21T07:34:45.334Z",
+        "ticket_id": "c657b7a0-8a13-43d7-b85c-aba518270c57",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "92e1bda0-b037-4bbb-84b7-6ca1b4d45518",
+        "start_time": "2023-09-20T20:48:55.759Z",
+        "end_time": "2023-09-20T17:23:30.802Z",
+        "description": "Discussed project requirements",
+        "created_at": "2023-09-21T09:49:40.965Z",
+        "updated_at": "2023-09-20T11:30:35.445Z",
+        "ticket_id": "60ed90e8-86d4-4b10-98f8-4cbe889cfcfb",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f6b2bb1c-a265-4be5-b664-0157ef270eb6",
+        "start_time": "2023-09-21T03:09:54.756Z",
+        "end_time": "2023-09-20T19:21:25.237Z",
+        "description": "Tested application performance",
+        "created_at": "2023-09-21T11:09:02.406Z",
+        "updated_at": "2023-09-21T02:56:40.246Z",
+        "ticket_id": "f04a4b17-77ab-4efd-887b-f7fd5ea9cbd5",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "f55969b7-a429-440a-8674-83493c8b284c",
+        "start_time": "2023-09-21T05:36:20.542Z",
+        "end_time": "2023-09-21T03:44:15.605Z",
+        "description": "Documented code changes",
+        "created_at": "2023-09-20T22:52:39.035Z",
+        "updated_at": "2023-09-21T07:29:13.398Z",
+        "ticket_id": "f04a4b17-77ab-4efd-887b-f7fd5ea9cbd5",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "81844f07-d698-448a-9403-bec33be4d705",
+        "email": "Darien65@roq.tech",
+        "firstName": "Geo",
+        "lastName": "Bechtelar",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/167.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "6980e772-a972-4cbb-92da-d9897409d0a1",
+        "email": "Maymie_Mosciski32@roq.tech",
+        "firstName": "Theresa",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/73.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "a0962a2f-4ddd-4701-b7c7-ae9e91154e5f",
+        "email": "Rose1@roq.tech",
+        "firstName": "Silas",
+        "lastName": "Zulauf",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/5308027",
+        "tenantId": null
+      },
+      {
+        "reference": "8107f795-47b4-456b-a9a4-4af103f8ffa2",
+        "email": "Enrico37@roq.tech",
+        "firstName": "Dane",
+        "lastName": "Bartoletti",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/65204869",
+        "tenantId": null
+      },
+      {
+        "reference": "167f4c21-5f87-410d-bdc8-6b54fc153d35",
+        "email": "Bradford_Rice-Bailey8@roq.tech",
+        "firstName": "Oral",
+        "lastName": "Wehner",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/75052981",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "f9351dbf-b374-465b-9a7d-e3bbdf840a26",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T20:05:55.164Z",
+        "updated_at": "2023-09-20T23:37:50.713Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "0749788a-06ba-4961-9332-944db351869e",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-20T12:21:07.136Z",
+        "updated_at": "2023-09-20T15:00:06.098Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "d37e85be-d5d4-48d6-b484-26f53815b5ed",
+        "name": "Sales Team",
+        "description": "Drives sales initiatives",
+        "created_at": "2023-09-21T04:32:51.670Z",
+        "updated_at": "2023-09-21T04:36:37.434Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "3579f0c8-6db8-4ed0-84df-de289dcb56da",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T12:35:18.862Z",
+        "updated_at": "2023-09-21T06:21:08.251Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "ac29cdf0-5874-41ad-b1f3-619a1473a1dc",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T03:31:17.514Z",
+        "updated_at": "2023-09-20T12:09:55.363Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "ddf193b9-112b-428f-8898-b2793ecfa7c4",
+        "name": "Project A",
+        "start_date": "2023-09-20T19:13:43.112Z",
+        "end_date": "2023-09-20T19:54:18.514Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T21:42:22.848Z",
+        "updated_at": "2023-09-21T05:32:39.899Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ba547f31-9e86-40f3-b7c0-2a6780d42874",
+        "name": "Project B",
+        "start_date": "2023-09-20T15:27:19.158Z",
+        "end_date": "2023-09-21T08:13:48.510Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T12:45:57.828Z",
+        "updated_at": "2023-09-21T09:02:32.446Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "62cab76f-3b32-45f4-837d-fe8bdd69f33e",
+        "name": "Project C",
+        "start_date": "2023-09-20T22:44:02.319Z",
+        "end_date": "2023-09-21T08:44:30.820Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T12:39:15.978Z",
+        "updated_at": "2023-09-21T09:22:57.423Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "233f4ed9-443b-4a30-8462-dcc3cb83f1e9",
+        "name": "Project D",
+        "start_date": "2023-09-20T22:27:25.354Z",
+        "end_date": "2023-09-20T13:03:44.763Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T19:30:33.761Z",
+        "updated_at": "2023-09-21T09:55:43.389Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "ab07cc03-9c89-48d4-828f-6cbffad96e1a",
+        "name": "Project E",
+        "start_date": "2023-09-21T06:00:14.585Z",
+        "end_date": "2023-09-20T19:46:11.215Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T02:13:26.317Z",
+        "updated_at": "2023-09-21T09:27:56.387Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "207eb04e-35a3-41d8-9211-c3a12db6ba6f",
+        "title": "Bug Fix",
+        "description": "Fix a critical bug in the system",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T08:41:46.916Z",
+        "updated_at": "2023-09-20T20:50:40.916Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "ba547f31-9e86-40f3-b7c0-2a6780d42874"
+      },
+      {
+        "id": "b42948b0-9aff-4244-b8a8-f31109137551",
+        "title": "Feature Request",
+        "description": "Request a new feature for the application",
+        "status": "In Progress",
+        "priority": "Medium",
+        "created_at": "2023-09-20T14:35:43.621Z",
+        "updated_at": "2023-09-20T11:54:41.638Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "62cab76f-3b32-45f4-837d-fe8bdd69f33e"
+      },
+      {
+        "id": "e2f0bced-ddcc-4721-91bc-21d08dba5712",
+        "title": "Technical Issue",
+        "description": "Resolve a technical issue reported by a user",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-20T20:32:10.038Z",
+        "updated_at": "2023-09-21T02:41:45.964Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "ba547f31-9e86-40f3-b7c0-2a6780d42874"
+      },
+      {
+        "id": "43ac81cf-b0b5-4d1c-8d1a-47cecde33173",
+        "title": "User Support",
+        "description": "Provide support to a user experiencing difficulties",
+        "status": "Closed",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T23:22:00.320Z",
+        "updated_at": "2023-09-20T23:49:34.931Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "ab07cc03-9c89-48d4-828f-6cbffad96e1a"
+      },
+      {
+        "id": "f8009642-a96c-4a39-b567-8e2341716599",
+        "title": "Enhancement",
+        "description": "Implement an enhancement to improve system performance",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-21T05:16:19.401Z",
+        "updated_at": "2023-09-21T00:03:12.988Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "ab07cc03-9c89-48d4-828f-6cbffad96e1a"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "1e653961-d3f0-49ac-94b0-de794bedfd9d",
+        "start_time": "2023-09-21T04:09:20.460Z",
+        "end_time": "2023-09-21T08:48:50.963Z",
+        "description": "Worked on backend API integration",
+        "created_at": "2023-09-20T19:59:53.704Z",
+        "updated_at": "2023-09-20T12:34:30.531Z",
+        "ticket_id": "e2f0bced-ddcc-4721-91bc-21d08dba5712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "1c79820b-bac3-4fec-97a0-68f407e8ca11",
+        "start_time": "2023-09-20T22:28:18.439Z",
+        "end_time": "2023-09-21T10:50:54.659Z",
+        "description": "Tested new feature functionality",
+        "created_at": "2023-09-20T17:55:30.953Z",
+        "updated_at": "2023-09-20T17:08:35.469Z",
+        "ticket_id": "43ac81cf-b0b5-4d1c-8d1a-47cecde33173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "b041d998-e97f-45ff-80ca-3e80d80b5278",
+        "start_time": "2023-09-21T09:18:42.105Z",
+        "end_time": "2023-09-21T01:13:36.825Z",
+        "description": "Attended team meeting",
+        "created_at": "2023-09-20T21:49:41.091Z",
+        "updated_at": "2023-09-21T05:56:52.463Z",
+        "ticket_id": "e2f0bced-ddcc-4721-91bc-21d08dba5712",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "71cbdbdf-857f-46b7-88d1-d6e2ce1ce426",
+        "start_time": "2023-09-20T23:21:16.746Z",
+        "end_time": "2023-09-20T21:01:28.787Z",
+        "description": "Reviewed code for quality assurance",
+        "created_at": "2023-09-20T21:50:51.956Z",
+        "updated_at": "2023-09-20T16:42:59.618Z",
+        "ticket_id": "43ac81cf-b0b5-4d1c-8d1a-47cecde33173",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "671cea16-b371-42f1-8a25-125a344b7698",
+        "start_time": "2023-09-21T08:46:15.995Z",
+        "end_time": "2023-09-20T12:02:23.699Z",
+        "description": "Provided support to a user",
+        "created_at": "2023-09-21T05:29:35.295Z",
+        "updated_at": "2023-09-21T07:17:07.984Z",
+        "ticket_id": "43ac81cf-b0b5-4d1c-8d1a-47cecde33173",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "45e644f4-e878-43c5-a626-f8437de7f380",
+        "email": "Shanna_Wolff@roq.tech",
+        "firstName": "Rosina",
+        "lastName": "Bartell",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/26670361",
+        "tenantId": null
+      },
+      {
+        "reference": "7ccd582b-46d7-4080-8c1d-ad1d56303ad8",
+        "email": "Carrie_Lubowitz@roq.tech",
+        "firstName": "Adrianna",
+        "lastName": "Heaney",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/419.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "f2e7f2e1-fab2-4683-a58a-464c95b63a40",
+        "email": "Darwin.Fadel@roq.tech",
+        "firstName": "Garth",
+        "lastName": "Boyer",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/76313806",
+        "tenantId": null
+      },
+      {
+        "reference": "d36fb90c-1f59-490d-a3db-e128854003b9",
+        "email": "Brooklyn_Wiza19@roq.tech",
+        "firstName": "Isabelle",
+        "lastName": "Hickle",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/32727401",
+        "tenantId": null
+      },
+      {
+        "reference": "885d1483-9b03-4ff1-bff1-b57fa4a109bd",
+        "email": "Lazaro96@roq.tech",
+        "firstName": "Zelma",
+        "lastName": "Ruecker",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/540.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "1cd0217f-dafa-4237-a7c3-4919784c9a78",
+        "name": "Development",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T13:05:32.532Z",
+        "updated_at": "2023-09-20T13:38:19.298Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7e5dbf5f-4833-4ad5-8a14-28ff1b04aada",
+        "name": "Marketing",
+        "description": "Responsible for promoting products",
+        "created_at": "2023-09-20T13:48:39.929Z",
+        "updated_at": "2023-09-21T07:25:07.940Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a29c7bda-a42c-4cfb-a0f0-fb717adddfe0",
+        "name": "Sales",
+        "description": "Responsible for generating sales",
+        "created_at": "2023-09-20T23:42:00.553Z",
+        "updated_at": "2023-09-21T02:02:12.698Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "262ea26d-8b01-415b-9c5e-c5ae68c60552",
+        "name": "Design",
+        "description": "Responsible for creating visual designs",
+        "created_at": "2023-09-21T10:03:52.433Z",
+        "updated_at": "2023-09-21T06:37:30.711Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7c4ddab5-faf1-48f7-af87-19698f1d3bb1",
+        "name": "Operations",
+        "description": "Responsible for managing day-to-day operations",
+        "created_at": "2023-09-21T09:35:28.576Z",
+        "updated_at": "2023-09-20T16:17:47.348Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "e06144df-de2b-42b7-b6fc-518519c27843",
+        "name": "Website Redesign",
+        "start_date": "2023-09-21T08:46:31.364Z",
+        "end_date": "2023-09-20T16:00:55.080Z",
+        "status": "In Progress",
+        "created_at": "2023-09-21T09:12:50.431Z",
+        "updated_at": "2023-09-21T06:10:24.588Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "daf5660a-07da-41ca-91a7-5ddc2cc280b5",
+        "name": "Product Launch",
+        "start_date": "2023-09-20T19:50:58.355Z",
+        "end_date": "2023-09-20T20:49:22.949Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T05:29:47.883Z",
+        "updated_at": "2023-09-20T23:12:20.064Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "f34d1333-b87b-4292-bc04-17b0de1051f3",
+        "name": "Sales Campaign",
+        "start_date": "2023-09-21T00:55:42.863Z",
+        "end_date": "2023-09-20T16:42:23.971Z",
+        "status": "On Hold",
+        "created_at": "2023-09-20T11:25:46.489Z",
+        "updated_at": "2023-09-21T01:56:58.260Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "670c8b3a-ce97-4547-8739-d67d8a9f489a",
+        "name": "Mobile App Development",
+        "start_date": "2023-09-21T11:07:54.228Z",
+        "end_date": "2023-09-21T03:26:41.259Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-21T04:03:07.571Z",
+        "updated_at": "2023-09-21T01:04:11.413Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "8620c410-a14d-4868-bd73-2bca05879352",
+        "name": "Process Improvement",
+        "start_date": "2023-09-20T15:23:34.451Z",
+        "end_date": "2023-09-20T22:08:21.867Z",
+        "status": "Pending",
+        "created_at": "2023-09-21T09:28:30.621Z",
+        "updated_at": "2023-09-21T02:26:49.534Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "8c85fb03-24c2-4e51-92a5-f9d5b4e07268",
+        "title": "Bug Fixing",
+        "description": "Fix a critical bug in the system",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T01:01:08.073Z",
+        "updated_at": "2023-09-20T12:33:19.719Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "f34d1333-b87b-4292-bc04-17b0de1051f3"
+      },
+      {
+        "id": "7b32b36b-3d0b-4165-ad6f-eaa05b144cf9",
+        "title": "Feature Request",
+        "description": "Request a new feature for the application",
+        "status": "In Progress",
+        "priority": "Medium",
+        "created_at": "2023-09-20T16:46:09.869Z",
+        "updated_at": "2023-09-20T15:18:35.202Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "daf5660a-07da-41ca-91a7-5ddc2cc280b5"
+      },
+      {
+        "id": "ebf1b5c9-519d-4506-8185-5443b8f927c9",
+        "title": "UI Enhancement",
+        "description": "Improve the user interface of a module",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-21T08:48:24.519Z",
+        "updated_at": "2023-09-20T14:59:01.093Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "670c8b3a-ce97-4547-8739-d67d8a9f489a"
+      },
+      {
+        "id": "c964fc62-b08a-49e9-8b63-8b79deb13c9b",
+        "title": "Performance Issue",
+        "description": "Investigate and resolve performance issues",
+        "status": "Closed",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T13:24:49.207Z",
+        "updated_at": "2023-09-20T20:50:23.385Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "8620c410-a14d-4868-bd73-2bca05879352"
+      },
+      {
+        "id": "fe7e3ff0-b675-40b6-ae70-80cb685d7cfd",
+        "title": "Data Import Error",
+        "description": "Fix an error in data import process",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-20T12:52:35.173Z",
+        "updated_at": "2023-09-21T03:46:09.801Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "8620c410-a14d-4868-bd73-2bca05879352"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "4d4fa102-e3ed-4262-bf26-bc9e1e28cbfd",
+        "start_time": "2023-09-20T21:38:19.592Z",
+        "end_time": "2023-09-20T14:04:22.285Z",
+        "description": "Worked on implementing new functionality",
+        "created_at": "2023-09-20T15:02:29.903Z",
+        "updated_at": "2023-09-20T19:26:03.429Z",
+        "ticket_id": "c964fc62-b08a-49e9-8b63-8b79deb13c9b",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "9756028a-603d-4dc8-852f-00eb3a565233",
+        "start_time": "2023-09-21T08:39:58.847Z",
+        "end_time": "2023-09-21T00:56:03.555Z",
+        "description": "Reviewed code for quality assurance",
+        "created_at": "2023-09-20T23:20:57.381Z",
+        "updated_at": "2023-09-20T15:39:38.211Z",
+        "ticket_id": "fe7e3ff0-b675-40b6-ae70-80cb685d7cfd",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0cd22fd7-cd3c-473f-bffd-9639fcf04ef1",
+        "start_time": "2023-09-21T00:51:19.761Z",
+        "end_time": "2023-09-20T18:30:04.280Z",
+        "description": "Attended project meeting",
+        "created_at": "2023-09-20T19:56:55.240Z",
+        "updated_at": "2023-09-21T08:52:58.817Z",
+        "ticket_id": "7b32b36b-3d0b-4165-ad6f-eaa05b144cf9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "7ae6883d-029d-48db-9f6b-732f630efc69",
+        "start_time": "2023-09-20T21:33:42.732Z",
+        "end_time": "2023-09-20T14:54:23.607Z",
+        "description": "Tested application for bugs",
+        "created_at": "2023-09-21T03:03:16.230Z",
+        "updated_at": "2023-09-21T00:15:04.961Z",
+        "ticket_id": "ebf1b5c9-519d-4506-8185-5443b8f927c9",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "4cf9637e-5bbd-4306-8f4c-c0d9880a97ed",
+        "start_time": "2023-09-20T23:41:15.605Z",
+        "end_time": "2023-09-21T06:52:00.116Z",
+        "description": "Provided support to end users",
+        "created_at": "2023-09-21T02:52:38.586Z",
+        "updated_at": "2023-09-20T18:24:00.350Z",
+        "ticket_id": "7b32b36b-3d0b-4165-ad6f-eaa05b144cf9",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "63fddcad-f2d4-4e75-9bec-f15339d83dbe",
+        "email": "Candido_Boehm23@roq.tech",
+        "firstName": "Osbaldo",
+        "lastName": "Waters",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/25600781",
+        "tenantId": null
+      },
+      {
+        "reference": "873f55f1-c296-4883-9019-614375851144",
+        "email": "Ahmed19@roq.tech",
+        "firstName": "Libby",
+        "lastName": "Nader",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/95428656",
+        "tenantId": null
+      },
+      {
+        "reference": "43139bd0-5364-448f-95c6-96dba0ecae1b",
+        "email": "Olaf.Spinka@roq.tech",
+        "firstName": "Lorena",
+        "lastName": "Kris",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/50895012",
+        "tenantId": null
+      },
+      {
+        "reference": "5889adb1-f816-4735-bdd3-3f0b83619ca8",
+        "email": "Roosevelt_Johnson80@roq.tech",
+        "firstName": "Cleve",
+        "lastName": "Anderson",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/749.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "306bfb86-450c-4915-a04b-18c7b96e4ff6",
+        "email": "Janie_Wilderman42@roq.tech",
+        "firstName": "Thurman",
+        "lastName": "O'Reilly",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/56827863",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "d582a9e5-fc51-4b6d-92cd-4b036d32d64e",
+        "name": "Development Team",
+        "description": "Responsible for software development",
+        "created_at": "2023-09-20T16:49:14.360Z",
+        "updated_at": "2023-09-21T01:30:38.580Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "7ec56938-8647-41cc-83a2-c482fa979f3a",
+        "name": "Marketing Team",
+        "description": "Handles marketing campaigns",
+        "created_at": "2023-09-21T02:50:57.356Z",
+        "updated_at": "2023-09-20T20:36:53.757Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "1bc1d398-edcb-4bed-ab0d-f56457203479",
+        "name": "Sales Team",
+        "description": "Drives sales initiatives",
+        "created_at": "2023-09-21T05:23:14.732Z",
+        "updated_at": "2023-09-20T18:52:29.396Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a24736ba-ce5f-4ca2-9eca-b37cfd20577f",
+        "name": "Design Team",
+        "description": "Creates visual designs",
+        "created_at": "2023-09-20T13:55:04.245Z",
+        "updated_at": "2023-09-20T14:00:09.617Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "6cb1c41f-1db4-4a87-8a08-353a30c003c2",
+        "name": "Support Team",
+        "description": "Provides customer support",
+        "created_at": "2023-09-21T00:47:53.170Z",
+        "updated_at": "2023-09-20T23:55:17.212Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "c4d61f19-f4c1-4248-88a2-f13e59d3616b",
+        "name": "Project A",
+        "start_date": "2023-09-20T12:10:24.737Z",
+        "end_date": "2023-09-20T18:03:43.420Z",
+        "status": "In Progress",
+        "created_at": "2023-09-20T12:43:59.980Z",
+        "updated_at": "2023-09-20T19:58:55.516Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "28a0071f-4258-4dfd-82cb-d6b8668b6a6a",
+        "name": "Project B",
+        "start_date": "2023-09-21T06:16:53.782Z",
+        "end_date": "2023-09-21T07:20:36.759Z",
+        "status": "On Hold",
+        "created_at": "2023-09-21T05:30:13.491Z",
+        "updated_at": "2023-09-20T17:51:59.068Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "642b6145-4baa-4c0f-8221-c8fdeecfbb94",
+        "name": "Project C",
+        "start_date": "2023-09-20T19:04:27.084Z",
+        "end_date": "2023-09-20T18:40:41.064Z",
+        "status": "Completed",
+        "created_at": "2023-09-21T00:14:41.366Z",
+        "updated_at": "2023-09-21T07:50:49.752Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "53bd4f24-2f32-4d78-b964-abc036b2b82c",
+        "name": "Project D",
+        "start_date": "2023-09-21T04:32:21.956Z",
+        "end_date": "2023-09-20T18:21:57.493Z",
+        "status": "Pending",
+        "created_at": "2023-09-20T20:48:17.408Z",
+        "updated_at": "2023-09-21T08:15:39.033Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "e62eddac-89fb-46eb-9876-54328820ab04",
+        "name": "Project E",
+        "start_date": "2023-09-20T13:46:01.204Z",
+        "end_date": "2023-09-20T21:39:13.976Z",
+        "status": "Cancelled",
+        "created_at": "2023-09-20T21:56:21.583Z",
+        "updated_at": "2023-09-20T21:03:12.444Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "17961ed5-844c-4d12-9b2d-551720b288b2",
+        "title": "Bug Report",
+        "description": "Application crashes on startup",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-21T08:50:31.861Z",
+        "updated_at": "2023-09-20T15:38:47.745Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "e62eddac-89fb-46eb-9876-54328820ab04"
+      },
+      {
+        "id": "e4743d1a-1fc6-46f4-8336-4520d4afac78",
+        "title": "Feature Request",
+        "description": "Ability to sort items in the list",
+        "status": "In Progress",
+        "priority": "Medium",
+        "created_at": "2023-09-20T15:55:06.614Z",
+        "updated_at": "2023-09-20T11:59:54.230Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "e62eddac-89fb-46eb-9876-54328820ab04"
+      },
+      {
+        "id": "60ec33c3-6431-4958-b79c-705a44915ee6",
+        "title": "Technical Issue",
+        "description": "Error when submitting form",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-20T22:21:29.004Z",
+        "updated_at": "2023-09-20T14:15:01.899Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "642b6145-4baa-4c0f-8221-c8fdeecfbb94"
+      },
+      {
+        "id": "a539452a-b424-47eb-8c2a-c5dee8b09e64",
+        "title": "User Feedback",
+        "description": "Suggestion for new feature",
+        "status": "Closed",
+        "priority": "Urgent",
+        "created_at": "2023-09-20T12:16:57.374Z",
+        "updated_at": "2023-09-21T05:58:41.269Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "e62eddac-89fb-46eb-9876-54328820ab04"
+      },
+      {
+        "id": "2f785e4b-0f70-42bd-bc4d-00d498732f70",
+        "title": "Enhancement Proposal",
+        "description": "Improvement suggestion for existing functionality",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-20T20:55:08.231Z",
+        "updated_at": "2023-09-20T19:43:43.726Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "53bd4f24-2f32-4d78-b964-abc036b2b82c"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "d010b9b2-08f6-49ae-9009-5da8aa5f26f5",
+        "start_time": "2023-09-20T19:53:16.534Z",
+        "end_time": "2023-09-20T13:18:15.779Z",
+        "description": "Worked on bug fixing",
+        "created_at": "2023-09-20T12:20:17.149Z",
+        "updated_at": "2023-09-20T12:58:52.372Z",
+        "ticket_id": "2f785e4b-0f70-42bd-bc4d-00d498732f70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "885cfd9a-ed7b-48c9-95d0-97f25f0ba92a",
+        "start_time": "2023-09-21T00:51:53.967Z",
+        "end_time": "2023-09-21T05:58:58.086Z",
+        "description": "Implemented new feature",
+        "created_at": "2023-09-20T13:10:24.338Z",
+        "updated_at": "2023-09-21T06:31:47.535Z",
+        "ticket_id": "60ec33c3-6431-4958-b79c-705a44915ee6",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "35463faa-8ee0-481d-92ad-332fb2d778ee",
+        "start_time": "2023-09-21T05:28:38.490Z",
+        "end_time": "2023-09-20T15:26:34.582Z",
+        "description": "Investigated performance issue",
+        "created_at": "2023-09-20T12:36:59.519Z",
+        "updated_at": "2023-09-21T10:03:30.138Z",
+        "ticket_id": "2f785e4b-0f70-42bd-bc4d-00d498732f70",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "5ee13904-22fa-46cf-83fd-3132e63717fe",
+        "start_time": "2023-09-20T18:33:51.742Z",
+        "end_time": "2023-09-21T06:00:37.284Z",
+        "description": "Provided user support",
+        "created_at": "2023-09-21T04:33:15.750Z",
+        "updated_at": "2023-09-21T04:40:13.802Z",
+        "ticket_id": "17961ed5-844c-4d12-9b2d-551720b288b2",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "28dbd6a0-23ea-41d2-bae2-d7d232347075",
+        "start_time": "2023-09-20T22:45:27.838Z",
+        "end_time": "2023-09-21T08:14:18.183Z",
+        "description": "Reviewed code changes",
+        "created_at": "2023-09-21T07:13:47.049Z",
+        "updated_at": "2023-09-21T07:49:41.862Z",
+        "ticket_id": "60ec33c3-6431-4958-b79c-705a44915ee6",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "7e58d9f9-c8fb-4ff9-b1b0-a8e8d98686cf",
+        "email": "Viola.Spencer32@roq.tech",
+        "firstName": "Lottie",
+        "lastName": "Hamill",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/28815153",
+        "tenantId": null
+      },
+      {
+        "reference": "e3902629-2af8-449d-9560-e04cfb511f62",
+        "email": "Domenico_Schumm78@roq.tech",
+        "firstName": "Rosetta",
+        "lastName": "Fritsch",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/2983149",
+        "tenantId": null
+      },
+      {
+        "reference": "c0e89961-6b86-43d4-a3c7-ca1c2e8c805b",
+        "email": "Marcia.Nader60@roq.tech",
+        "firstName": "Jarod",
+        "lastName": "Buckridge-Williamson",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/64164337",
+        "tenantId": null
+      },
+      {
+        "reference": "3cf4c649-a961-4b12-bdec-f134bc85ca25",
+        "email": "Demarco_Wisozk@roq.tech",
+        "firstName": "Elmore",
+        "lastName": "Champlin",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/80187391",
+        "tenantId": null
+      },
+      {
+        "reference": "f24d6ac6-dd7b-47d4-b10f-f54215d5399c",
+        "email": "Kaley_Graham73@roq.tech",
+        "firstName": "Sandra",
+        "lastName": "Lakin-Kemmer",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/318.jpg",
+        "tenantId": null
+      }
+    ]
+  },
+  {
+    "team": [
+      {
+        "id": "519948a9-fb18-42b9-91eb-7766d668d141",
+        "name": "Development Team",
+        "description": "Responsible for product development",
+        "created_at": "2023-09-21T06:56:30.952Z",
+        "updated_at": "2023-09-20T21:53:12.697Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "960eb294-d0dd-451b-8462-3eea774b8a32",
+        "name": "Marketing Team",
+        "description": "Handles marketing and advertising",
+        "created_at": "2023-09-21T03:49:49.463Z",
+        "updated_at": "2023-09-20T19:08:12.335Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "eb1dbf29-cc0b-497f-80c1-2fb2b0cf5f8c",
+        "name": "Sales Team",
+        "description": "Focuses on sales and customer acquisition",
+        "created_at": "2023-09-21T07:20:30.240Z",
+        "updated_at": "2023-09-21T03:57:48.412Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "04bd5632-1377-4ddf-9305-86dc85f78e35",
+        "name": "Operations Team",
+        "description": "Manages day-to-day operations",
+        "created_at": "2023-09-21T04:27:59.739Z",
+        "updated_at": "2023-09-21T00:57:15.839Z",
+        "company_id": "main_entity_pk"
+      },
+      {
+        "id": "a2d46885-5819-4ff7-bc2d-03acd8ee3dba",
+        "name": "Design Team",
+        "description": "Creates visually appealing designs",
+        "created_at": "2023-09-20T18:44:42.479Z",
+        "updated_at": "2023-09-21T11:12:22.301Z",
+        "company_id": "main_entity_pk"
+      }
+    ],
+    "project": [
+      {
+        "id": "886988cb-a44f-426b-8570-c216449ef9b7",
+        "name": "Project A",
+        "start_date": "2023-09-21T00:29:36.877Z",
+        "end_date": "2023-09-21T08:03:43.766Z",
+        "status": "In progress",
+        "created_at": "2023-09-20T15:55:53.329Z",
+        "updated_at": "2023-09-21T04:13:41.593Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "afc61ec5-612d-4274-b2f4-2785426482ee",
+        "name": "Project B",
+        "start_date": "2023-09-20T16:19:21.294Z",
+        "end_date": "2023-09-21T10:40:26.588Z",
+        "status": "On hold",
+        "created_at": "2023-09-21T07:27:29.694Z",
+        "updated_at": "2023-09-21T05:16:29.878Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "245ebfb5-9abb-403b-8bed-fd9fc348644c",
+        "name": "Project C",
+        "start_date": "2023-09-20T18:07:21.494Z",
+        "end_date": "2023-09-21T11:09:19.105Z",
+        "status": "Completed",
+        "created_at": "2023-09-20T23:36:34.286Z",
+        "updated_at": "2023-09-20T15:54:29.303Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "0e246d77-242c-4ca1-96e4-218c10dc102e",
+        "name": "Project D",
+        "start_date": "2023-09-20T13:34:49.473Z",
+        "end_date": "2023-09-20T18:52:55.406Z",
+        "status": "Delayed",
+        "created_at": "2023-09-20T12:01:14.354Z",
+        "updated_at": "2023-09-21T05:33:24.709Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      },
+      {
+        "id": "0f05cd18-119d-4650-ba04-7cf87c0d1091",
+        "name": "Project E",
+        "start_date": "2023-09-20T12:11:02.171Z",
+        "end_date": "2023-09-21T07:07:58.038Z",
+        "status": "Upcoming",
+        "created_at": "2023-09-20T17:35:01.230Z",
+        "updated_at": "2023-09-21T08:38:55.056Z",
+        "company_id": "main_entity_pk",
+        "manager_id": "user_entity_pk"
+      }
+    ],
+    "ticket": [
+      {
+        "id": "bc72f0f2-7488-49d1-b793-02eb7eeb6e1a",
+        "title": "Bug fix",
+        "description": "Application crashes when clicking on button",
+        "status": "Open",
+        "priority": "High",
+        "created_at": "2023-09-20T12:36:07.697Z",
+        "updated_at": "2023-09-21T03:24:46.188Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "245ebfb5-9abb-403b-8bed-fd9fc348644c"
+      },
+      {
+        "id": "131f46c4-f8e8-45f0-bf18-29bf08af316a",
+        "title": "Feature request",
+        "description": "Add ability to upload images",
+        "status": "In progress",
+        "priority": "Medium",
+        "created_at": "2023-09-20T23:17:28.257Z",
+        "updated_at": "2023-09-21T07:44:07.492Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "245ebfb5-9abb-403b-8bed-fd9fc348644c"
+      },
+      {
+        "id": "6e4daa73-6b91-45d6-8846-7372976bf44c",
+        "title": "Technical issue",
+        "description": "Unable to login to account",
+        "status": "Resolved",
+        "priority": "Low",
+        "created_at": "2023-09-21T06:25:33.061Z",
+        "updated_at": "2023-09-20T22:03:29.863Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "245ebfb5-9abb-403b-8bed-fd9fc348644c"
+      },
+      {
+        "id": "8472013e-56d2-45aa-9afd-8f06ccf01886",
+        "title": "User support",
+        "description": "Assist user with troubleshooting",
+        "status": "Closed",
+        "priority": "Critical",
+        "created_at": "2023-09-21T02:41:49.419Z",
+        "updated_at": "2023-09-20T19:49:35.354Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "0e246d77-242c-4ca1-96e4-218c10dc102e"
+      },
+      {
+        "id": "51c39e4d-0695-434a-8163-2b81c84d23ae",
+        "title": "System enhancement",
+        "description": "Improve performance of search function",
+        "status": "Reopened",
+        "priority": "Normal",
+        "created_at": "2023-09-21T09:30:00.087Z",
+        "updated_at": "2023-09-20T20:00:21.462Z",
+        "assignee_id": "user_entity_pk",
+        "creator_id": "user_entity_pk",
+        "project_id": "0e246d77-242c-4ca1-96e4-218c10dc102e"
+      }
+    ],
+    "time_entry": [
+      {
+        "id": "ff0ae055-e2bb-4bca-ad12-3de11ffb7935",
+        "start_time": "2023-09-20T12:25:31.475Z",
+        "end_time": "2023-09-20T11:55:14.536Z",
+        "description": "Meeting with client",
+        "created_at": "2023-09-20T20:38:49.928Z",
+        "updated_at": "2023-09-20T23:44:41.302Z",
+        "ticket_id": "131f46c4-f8e8-45f0-bf18-29bf08af316a",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "8e478a79-d6e3-4d72-a1e1-96ead72e46f1",
+        "start_time": "2023-09-21T07:59:34.552Z",
+        "end_time": "2023-09-20T20:36:24.006Z",
+        "description": "Code review session",
+        "created_at": "2023-09-20T20:29:22.874Z",
+        "updated_at": "2023-09-20T14:16:09.380Z",
+        "ticket_id": "6e4daa73-6b91-45d6-8846-7372976bf44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "0f1f66b1-a701-4e20-ac8a-6bd01a510693",
+        "start_time": "2023-09-21T01:40:24.593Z",
+        "end_time": "2023-09-21T03:37:12.591Z",
+        "description": "Testing new feature",
+        "created_at": "2023-09-20T23:44:50.350Z",
+        "updated_at": "2023-09-20T19:10:40.461Z",
+        "ticket_id": "6e4daa73-6b91-45d6-8846-7372976bf44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "3ac9d6a3-7748-4e0d-a5c9-214877e1b14d",
+        "start_time": "2023-09-21T04:53:00.611Z",
+        "end_time": "2023-09-20T18:07:05.449Z",
+        "description": "Documentation update",
+        "created_at": "2023-09-21T01:03:33.899Z",
+        "updated_at": "2023-09-21T10:09:29.615Z",
+        "ticket_id": "6e4daa73-6b91-45d6-8846-7372976bf44c",
+        "user_id": "user_entity_pk"
+      },
+      {
+        "id": "16da0946-c2d2-4bd4-9e59-eb072573ddf9",
+        "start_time": "2023-09-20T14:14:15.933Z",
+        "end_time": "2023-09-20T23:16:16.170Z",
+        "description": "Research and development",
+        "created_at": "2023-09-21T06:09:46.483Z",
+        "updated_at": "2023-09-20T16:56:46.412Z",
+        "ticket_id": "131f46c4-f8e8-45f0-bf18-29bf08af316a",
+        "user_id": "user_entity_pk"
+      }
+    ],
+    "roqUser": [
+      {
+        "reference": "8c95da21-be6f-4b33-a7fa-ff1f07c907a6",
+        "email": "Leopold61@roq.tech",
+        "firstName": "Marlene",
+        "lastName": "Oberbrunner",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/1087.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b200d170-b114-4909-bcb8-75484a9fa293",
+        "email": "Betty.Smitham70@roq.tech",
+        "firstName": "Laurianne",
+        "lastName": "Prosacco",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/10496554",
+        "tenantId": null
+      },
+      {
+        "reference": "2af046dc-7075-4b85-aacf-9ee32df2aa25",
+        "email": "Jeramie37@roq.tech",
+        "firstName": "Andy",
+        "lastName": "Skiles",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/992.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "b34e091f-82ee-4ddf-a5ba-b57f3e9b2bce",
+        "email": "Michale5@roq.tech",
+        "firstName": "Jovani",
+        "lastName": "Tillman",
+        "active": true,
+        "avatarUrl": "https://cloudflare-ipfs.com/ipfs/Qmd3W5DuhgHirLHGVixi6V76LhCkZUz6pnFt5AJBiyvHye/avatar/49.jpg",
+        "tenantId": null
+      },
+      {
+        "reference": "0b12a829-e357-4d78-8071-6c6ca197190d",
+        "email": "Wendell41@roq.tech",
+        "firstName": "Adelbert",
+        "lastName": "Senger",
+        "active": true,
+        "avatarUrl": "https://avatars.githubusercontent.com/u/45042237",
+        "tenantId": null
+      }
+    ]
+  }
+]
